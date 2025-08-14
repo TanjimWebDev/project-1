@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #fae3b6;
+    padding: 50px 0px;
+}
+
+.container {
+    width: 1290px;
+    background-color: #fae3b6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+nav.box{
+    align-items: center;
+}
+
+.logo-part {
+    width: 25%;
+    height: 200px;
+}
+
+.menu-part {
+    width: 50%;
+    height: 200px;
+}
+
+.menu-part ul {
+    display: flex;
+    list-style: none;
+    column-gap: 59px;
+    cursor: pointer;
+}
+
+.menu-part ul li {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(2, 2, 2);
+}
+
+.button-part {
+    width: 25%;
+    height: 200px;
+    text-align: right;
+}
+
+.button-part a {
+    background: #fdbb57;
+    padding: 15px 15px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+
+.button-part a:hover {
+    background: #fae3b6;
+    border: box-shadow: 2px 9px 14px 1px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 2px 9px 14px 1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 2px 9px 14px 1px rgba(0, 0, 0, 0.41);
+    ;
+}
+
+.button-part :first-child {
+    margin-right: 30px;
+}
+
+/* ================================ */
+       /* banner css start */
+/* =================================== */
+
+.banner{
+    background-color: #fae3b6;
+    padding-top: 117px;
+    padding-bottom: 102px;
+}
+
+.banner-conten{
+    width: 50%;
+}
+.banner-image{
+    width: 50%;
+    margin-left: 70px;
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 50px;
+    width: 563px;
+}
+.banner p{
+    font-size: 28px;
+    width: 531px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 50px;
+}
+.banner a{
+    font-size: 24px;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 25px 91px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ================================ */
+       /* banner css start */
+/* =================================== */
